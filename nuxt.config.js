@@ -25,13 +25,14 @@ export default {
   /*
   ** Build configuration
   */
+  mode: 'spa',
   build: {
     extractCSS: true,
     postcss: false,
-    vendor:[
-      '~/plugins/vuetify.js',
-      '~/assets/style/app.styl'
-    ],
+    // vendor:[
+    //   '~/plugins/vuetify.js',
+    //   '~/assets/style/app.styl'
+    // ],
     /*
     ** Run ESLint on save
     */
