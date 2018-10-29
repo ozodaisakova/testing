@@ -27,6 +27,11 @@ export default {
   */
   build: {
     extractCSS: true,
+    postcss: false,
+    vendor:[
+      '~/plugins/vuetify.js',
+      '~/assets/style/app.styl'
+    ],
     /*
     ** Run ESLint on save
     */

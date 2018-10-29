@@ -45,8 +45,7 @@
     }
   }
 </script>
-<style>
-
+<style scoped>
 .my-slider{
     box-shadow: none;
     border: none;
