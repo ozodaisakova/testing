@@ -11,7 +11,6 @@
         <v-flex>
             <v-img
               :src="item.src"
-              :lazy-src="`https://picsum.photos/10/6?image=15`"  
               fill-height>
             <v-layout
               slot="placeholder"
@@ -19,7 +18,7 @@
               align-center
               justify-center
               ma-0>
-              <v-progress-circular indeterminate color="grey"></v-progress-circular>
+              <v-progress-circular indeterminate color="black"></v-progress-circular>
             </v-layout> 
           </v-img>
         </v-flex>

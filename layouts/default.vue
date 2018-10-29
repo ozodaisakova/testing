@@ -66,7 +66,12 @@
         </v-list-tile>
         <v-divider></v-divider>
         <v-list-tile class="mt-5">
-          <v-list-content>Ночной режим</v-list-content>
+          <v-list-tile-action>mdi-weather-night</v-list-tile-action>
+          <v-list-content> 
+            <v-list-tile-title>
+                Ночной режим
+            </v-list-tile-title>
+            </v-list-content>
           <v-spacer></v-spacer>
           <v-switch v-model="dark"></v-switch>
         </v-list-tile>
