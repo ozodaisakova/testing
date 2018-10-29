@@ -73,7 +73,12 @@
       </v-list>
     </v-navigation-drawer>
     <v-toolbar fixed app :clipped-left="clipped">
-      <v-toolbar-side-icon @click="drawer = !drawer"></v-toolbar-side-icon>
+      <v-btn icon @click="drawer = !drawer">
+        <v-icon>
+          mdi-menu
+        </v-icon>
+
+      </v-btn>
       
       <v-toolbar-title v-text="title"></v-toolbar-title>
       

@@ -1,6 +1,10 @@
 <template>
-  <v-carousel hide-delimiters  class="my-slider">
-    <v-carousel-item 
+<v-carousel 
+      hide-delimiters  
+      class="my-slider"
+      prev-icon="mdi-arrow-left-drop-circle"
+      next-icon="mdi-arrow-right-drop-circle">
+ <v-carousel-item 
         v-for="(item,i) in items"
         :key="i">
       <v-layout row wrap align-center fill-height >
