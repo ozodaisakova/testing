@@ -25,7 +25,7 @@ export default {
   /*
   ** Build configuration
   */
-  mode: 'spa',
+
   build: {
     extractCSS: true,
     postcss: false,
